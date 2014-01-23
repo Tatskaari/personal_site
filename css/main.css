@@ -1,0 +1,66 @@
+---
+background-color: 181818
+forground-color: F6FAD6
+forground-color-dark: 3F3F3F
+---
+html, body{
+  height: 100%;
+  margin: 0;
+  font-family: "sans-serif";
+}
+p, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+#outer-content{
+  background: url({{site.url}}/assets/img/science.jpg) no-repeat;
+
+  height: 100%;
+  width: 100%;
+}
+#inner-content{
+  min-height: 100%;
+  padding: 0;
+  background: url({{site.url}}/assets/img/science.jpg) no-repeat;
+  background-size: cover; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+  color: #{{page.forground-color}};
+}
+#nav-bar{
+  background: #{{ page.background-color }};
+  border: none;
+  border-bottom: 2px solid #{{page.forground-color-dark}};
+  border-radius: none;
+  margin: 0;
+}
+.center-box{
+  margin-top: 5%;
+  margin-right: 0;
+  padding: 1em;
+  background-color: #{{page.background-color}};
+  border-radius: 3px;
+  border: 1px solid #{{page.forground-color-dark}};
+  box-sizing: border-box;
+}
+#contact-form textarea{
+  height: 5em;
+  max-width: 100%;
+}
+.no-pad{
+  margin: 0;
+}
+.form-control{
+  margin: 0.4em 0;
+}
+.navbar-default .navbar-nav>.active>a{
+  background-color: #111;
+  color: #fff;
+}
+.navbar-default .navbar-nav>.active>a:hover{
+  background-color: #222;
+  color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: #fff;
+}
