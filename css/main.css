@@ -72,3 +72,7 @@ html, body{
 #a-level tr td:nth-child(2){
   margin-right: 0;
 }
+.post-container{
+  border-bottom: 1px solid #{{page.forground-color}};
+  padding: 2px;
+}
