@@ -76,3 +76,10 @@ html, body{
   border-bottom: 1px solid #{{page.forground-color}};
   padding: 2px;
 }
+#blog-title{
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #{{page.forground-color}};
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
