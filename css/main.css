@@ -8,15 +8,9 @@ html, body{
   margin: 0;
   font-family: "sans-serif";
 }
-#outer-content{
-  background: url({{site.url}}/assets/img/science.jpg) no-repeat;
-
-  height: 100%;
-  width: 100%;
-}
 #inner-content{
   min-height: 100%;
-  background: url({{site.url}}/assets/img/science.jpg) no-repeat;
+  background: url({{site.url}}/assets/img/science.jpg) no-repeat fixed center;
   background-size: cover; 
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -76,6 +70,9 @@ html, body{
   border-bottom: 1px solid #{{page.forground-color}};
   padding: 2px;
 }
+.post p{
+  font-size: 120%;
+}
 #blog-title{
   width: 100%;
   text-align: center;
@@ -85,7 +82,7 @@ html, body{
 }
 .blog-image{
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .blog-image img, .blog-image p{
   width: 100%;

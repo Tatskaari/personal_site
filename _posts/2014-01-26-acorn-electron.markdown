@@ -6,6 +6,7 @@ categories: interests
 author: Jonathan Poole
 ---
 I was in my house-mate’s room for whatever reason and I decided to pick up his acorn electron and play with it. Being a mechanical keyboard nut, I wanted to know what type of switches were in there. We decided to remove the key caps and look at the switch. The switch looks and feels similar to a topre switch however it's too old for that. I can't seem to be able to find any information on what the switches actually are though. Regardless, the keys are a delight to type on so we wanted to turn it into a usable keyboard.
+
 {% include image.html url="http://files.poole.uk.to/BBC%20micro%20keyboard%20project/The%20switch.jpg" description="The switches" %}
 
 Simon has a arduino Leonardo lying around which has a tiny micro controller on it that allows it to connect to a desktop. This thing can be re-purposed to allow it to appear as a HID compliment keyboard so it can be used on any operating system without custom drivers.
