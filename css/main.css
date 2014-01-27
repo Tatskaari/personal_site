@@ -97,5 +97,5 @@ html, body{
   color: {{ page.forground-color }};
 }
 .blog-image p{
-  margin: 2px;
+  text-indent: 0.5em;
 }
