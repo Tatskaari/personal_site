@@ -26,7 +26,6 @@ weight: 0
     $mail->MsgHTML($message . "<br/><br/>" . "From: " . $_POST["email"]);
 
     $mail->AddAddress("jfp6@kent.ac.uk","Jonathan Poole");
-    $mail->AddAddress("jonfpoole@gmail.com","Jonathan Poole");
     $mail->IsHTML(true);
 
     if(!$mail->Send()) {//to see if we return a message or a value bolean
