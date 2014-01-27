@@ -21,7 +21,7 @@ html, body{
   background: #{{ page.background-color }};
   border: none;
   border-bottom: 2px solid #{{page.forground-color-dark}};
-  border-radius: none;
+  border-radius: 0px;
   margin: 0;
 }
 .center-box{
