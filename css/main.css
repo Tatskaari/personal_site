@@ -112,6 +112,7 @@ hr{
 }
 .blog-image p{
   text-indent: 0.5em;
+  margin: 0;
 }
 .project-icon{
   max-height: 100px;
