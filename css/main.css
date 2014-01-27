@@ -93,13 +93,12 @@ hr{
 .post-container a:first-child{
   color: #{{ page.forground-color }};
 }
-.post-container a:first-child:hover{
-  
+.post-container h2{
+  margin-top: 0;
 }
 #blog-title{
   width: 100%;
   text-align: center;
-  border-bottom: 1px solid #{{page.forground-color}};
   padding: 0.5em 0;
 }
 .blog-image{
