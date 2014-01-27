@@ -5,8 +5,8 @@ weight: 5
 ---
 <h1 id="blog-title">Chronicles of a Coder</h1>
 {% for post in site.posts %}
-	<div class="post-container">
-		<h3>{{ post.title }}</h3>
+	<div class="post-container post">
+		<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 		<p>{{ post.excerpt }}</p>
 		<a href="{{ post.url }}" class="pull-right">read more</a>
 		<div style="clear: both;"></div>

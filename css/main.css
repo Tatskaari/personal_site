@@ -8,6 +8,12 @@ html, body{
   margin: 0;
   font-family: "sans-serif";
 }
+p, h1, h2, h3, h4, h5, h6{
+  margin: 0;
+}
+p{
+  font-size: 110%;
+}
 hr{
   width: 95%;
   color: #{{ forground-color }};
@@ -65,7 +71,7 @@ hr{
   background-color: #222;
   color: #fff;
 }
-.navbar-default .navbar-nav>li>a:hover{
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
   color: #fff;
 }
 .center-box .row{
@@ -81,15 +87,20 @@ hr{
   border-bottom: 1px solid #{{page.forground-color}};
   padding: 2px;
 }
-.post p{
-  font-size: 120%;
+.post p, .post h2{
+  margin: 0.5em 0;
+}
+.post-container a:first-child{
+  color: #{{ page.forground-color }};
+}
+.post-container a:first-child:hover{
+  
 }
 #blog-title{
   width: 100%;
   text-align: center;
   border-bottom: 1px solid #{{page.forground-color}};
-  padding-bottom: 1em;
-  margin-bottom: 0;
+  padding: 0.5em 0;
 }
 .blog-image{
   width: 80%;
