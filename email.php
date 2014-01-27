@@ -15,8 +15,8 @@ weight: 0
     $mail->SMTPSecure = "ssl";                 // sets the prefix to the server
     $mail->Host       = "smtp.gmail.com:465";      // sets GMAIL as the SMTP server
 
-    $mail->Username   = "jonfpoole@gmail.com";  // GMAIL username
-    $mail->Password   = "fernie13";            // GMAIL password
+    $mail->Username   = "portfoliomailer.poole.uk.to@gmail.com";  // GMAIL username
+    $mail->Password   = "apples1710";            // GMAIL password
     //End Gmail
 
     $mail->From       = "jonfpoole@gmail.com";
