@@ -8,7 +8,7 @@ weight: 5
 	<div class="post-container post">
 		<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a>
 		<p>{{ post.excerpt }}</p>
+		<div class="pull-right">{{post.date | date_to_string}}</div>
+		<div style="clear: both;"></div>
 	</div>
-	<div class="pull-right">{{post.date | date_to_string}}</div>
-	<div style="clear: both;"></div>
 {% endfor %}

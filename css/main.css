@@ -93,9 +93,6 @@ hr{
 .post-container a:first-child{
   color: #{{ page.forground-color }};
 }
-.post-container h2{
-  margin-top: 0;
-}
 #blog-title{
   width: 100%;
   text-align: center;
