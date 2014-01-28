@@ -90,7 +90,7 @@ hr{
 .post p, .post h2{
   margin: 0.5em 0;
 }
-.post-container a:first-child{
+.post-container>a{
   color: #{{ page.forground-color }};
 }
 #blog-title{
