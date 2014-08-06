@@ -2,12 +2,12 @@
 weight: 0
 ---
 <?php
-	echo "string";
 	error_reporting(E_ALL);
 	ini_set('display_errors', 1);
 
 	require 'PHPMailer/PHPMailerAutoload.php';
 	$mail  = new PHPMailer();   
+	$mail->SMTPDebug = 1;
     $mail->IsSMTP();
 
     //GMAIL config
