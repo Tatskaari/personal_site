@@ -23,6 +23,7 @@ html, body {
 h1, h2, h3, h4, h5 {
 	font-variant: small-caps;
 }
+
 .header {
 	width: 100%;
 	height: 64px;
@@ -38,13 +39,12 @@ h1, h2, h3, h4, h5 {
 	margin: 0;
     font-size: inherit;
 }
+
 a.link-icon {
     text-decoration: none;
-    color: #333;
+    color: inherit;
 }
-.icon-link:visited {color: #333;}  /* visited link */
-.icon-link:hover {color: #333;}  /* mouse over link */
-.icon-link:active {color: #333;}  /* selected link */
+
 
 .main-body {
 	grid-row-start: 2;
