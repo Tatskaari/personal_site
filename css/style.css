@@ -19,12 +19,6 @@ html, body {
 	height: 100%;
 }
 
-@media screen and (max-width: 800px) {
-	body {
-		font-size: 1.5em;
-	}
-} 
-
 h1, h2, h3, h4, h5 {
 	font-variant: small-caps;
 }
@@ -80,6 +74,16 @@ a.link-icon {
 	float: left;
 	margin-right: 1em;
 }
+
+@media screen and (max-width: 800px) {
+	.footer-list>li {
+		margin-right: 0;
+		width: 100%;
+		line-height: 1em;
+		margin-top: 0.5em;
+		text-align: center;
+	}
+} 
 
 .left {
 	float: left;
