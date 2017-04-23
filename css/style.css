@@ -102,21 +102,20 @@ a.link-icon {
 
 .section-title {
 	margin: 0;
-	line-height: 1.6em;
+	line-height: 1.2em;
+}
+
+.section-abstract {
+	font-style: italic;
+	font-size: 0.8em;
 }
 
 .section-abstract p {
-	font-style: italic;
-	margin-top: 1em;
-	font-size: 0.9em;
+	margin-top: 0.5em;
 }
 
-.read-time {
-	font-size: 0.7em;
-	margin: 0;
-	margin-bottom: -1.5em;
-	line-height: 1em;
-	text-align: right;
+.section-info {
+	height: 1em;
 }
 
 .section {
