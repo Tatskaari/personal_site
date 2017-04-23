@@ -7,7 +7,7 @@
 
 .page-container {
 	display: grid;
-	grid-template-rows: 4rem 1fr 4rem;
+	grid-template-rows: auto 1fr auto;
 	grid-template-columns: 1fr minmax(auto, 64rem) 1fr; 
 	height: 100%;
 }
@@ -82,6 +82,7 @@ a.link-icon {
 		line-height: 1em;
 		margin-top: 0.5em;
 		text-align: center;
+		float: none;
 	}
 } 
 
