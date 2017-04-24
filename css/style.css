@@ -84,8 +84,14 @@ a.link-icon {
 		width: 100%;
 		line-height: 1em;
 		margin-top: 0.5em;
+		margin-bottom: 0.5em;
 		text-align: center;
 		float: none;
+	}
+
+	.footer-list {
+		margin-bottom: 1em;
+		margin-top: 1em;
 	}
 } 
 
